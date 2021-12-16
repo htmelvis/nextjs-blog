@@ -36,8 +36,8 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <section>
-        <form method="get" action="/api/form-process">
-          <input name="name" type="text" />
+        <form>
+          <input name="name" />
           <input name="email" type="text" />
           <input type="submit" />
         </form>
